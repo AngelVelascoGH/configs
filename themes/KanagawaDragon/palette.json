@@ -1,0 +1,16 @@
+{
+    "kanagawa-dragon": {
+        "background": "#181616",
+        "foreground": "#c5c9c5",
+        "black": "#0d1117",
+        "red": "#c4746e",
+        "green": "#8a9a7b",
+        "yellow": "#c4b28a",
+        "blue": "#8ba4b0",
+        "magenta": "#a292a3",
+        "cyan": "#8ea4a2",
+        "white": "#c5c9c5",
+        "gray": "#727169",
+        "dark_gray": "#2D4F67"
+    }
+}

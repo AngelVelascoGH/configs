@@ -1,0 +1,63 @@
+# --- MONOCHROME YAZI THEME ---
+
+[mgr]
+cwd = { fg = "#888888" }
+
+# Hovered Item (Inverted Style)
+hovered         = { fg = "#000000", bg = "#ffffff", bold = true }
+preview_hovered = { underline = true }
+
+# Selection marks
+marker_selected = { fg = "#ffffff", bg = "#333333" }
+marker_copied   = { fg = "#ffffff", bg = "#333333" }
+marker_cut      = { fg = "#ffffff", bg = "#333333" }
+
+# Tab Bar
+tab_active   = { fg = "#000000", bg = "#ffffff", bold = true }
+tab_inactive = { fg = "#888888", bg = "#111111" }
+tab_width    = 1
+
+# Border
+border_symbol = "│"
+border_style  = { fg = "#333333" }
+
+[status]
+separator_open  = ""
+separator_close = ""
+separator_style = { fg = "#333333", bg = "#333333" }
+
+# Mode Indicator (Normal/Select/Unset)
+mode_normal = { fg = "#000000", bg = "#ffffff", bold = true }
+mode_select = { fg = "#000000", bg = "#ffffff", bold = true }
+mode_unset  = { fg = "#000000", bg = "#ffffff", bold = true }
+
+# Progress Bar
+progress_label  = { fg = "#ffffff", bold = true }
+progress_normal = { fg = "#333333", bg = "#111111" }
+progress_error  = { fg = "#ffffff", bg = "#333333" }
+
+# Permissions info
+permissions_t = { fg = "#ffffff" }
+permissions_r = { fg = "#888888" }
+permissions_w = { fg = "#888888" }
+permissions_x = { fg = "#ffffff" }
+permissions_s = { fg = "#ffffff" }
+
+[input]
+border   = { fg = "#ffffff" }
+title    = {}
+value    = { fg = "#ffffff" }
+selected = { reversed = true }
+
+[select]
+border   = { fg = "#ffffff" }
+active   = { fg = "#000000", bg = "#ffffff" }
+inactive = {}
+
+[which]
+mask            = { bg = "#111111" }
+cand            = { fg = "#ffffff" }
+rest            = { fg = "#888888" }
+desc            = { fg = "#ffffff" }
+separator       = "  "
+separator_style = { fg = "#333333" }

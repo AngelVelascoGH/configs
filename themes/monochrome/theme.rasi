@@ -1,0 +1,23 @@
+* {
+    /* Monochrome Palette */
+    bg0:     #000000;
+    bg1:     #050505;
+    bg2:     #111111;
+    bg3:     #222222;
+
+    fg0:     #ffffff;
+    fg1:     #eeeeee;
+    fg2:     #888888;
+
+    /* In monochrome, colors are just shades of grey/white */
+    red:     #ffffff;
+    green:   #ffffff;
+    yellow:  #dddddd;
+    blue:    #cccccc;
+    magenta: #bbbbbb;
+    cyan:    #aaaaaa;
+
+    /* The important semantic keys */
+    accent:  @fg0;     /* White for selection */
+    urgent:  @fg2;     /* Grey for urgent */
+}

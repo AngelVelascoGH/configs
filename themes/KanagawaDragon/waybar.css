@@ -1,0 +1,13 @@
+/* --- KANAGAWA DRAGON --- */
+
+@define-color bar-bg rgba(24, 22, 22, 0.95);
+/* #181616 */
+@define-color text-primary #c5c9c5;
+@define-color text-secondary #727169;
+
+/* Dragon Red for accents feels very "Samurai" */
+@define-color accent #c4746e;
+@define-color urgent #E46876;
+
+@define-color tooltip-bg #12120f;
+@define-color tooltip-border #2D4F67;

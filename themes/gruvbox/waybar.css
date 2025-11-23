@@ -1,0 +1,13 @@
+/* --- GRUVBOX THEME --- */
+
+@define-color bar-bg rgba(29, 32, 33, 0.90);
+@define-color text-primary #ebdbb2;
+@define-color text-secondary #d5c4a1;
+
+@define-color accent #8ec07c;
+/* Aqua */
+@define-color urgent #fb4934;
+/* Red */
+
+@define-color tooltip-bg rgba(29, 32, 33, 0.95);
+@define-color tooltip-border rgba(142, 192, 124, 0.20);

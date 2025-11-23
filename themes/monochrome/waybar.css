@@ -1,0 +1,14 @@
+/* --- MONOCHROME THEME --- */
+
+@define-color bar-bg #000000;
+@define-color text-primary #ffffff;
+@define-color text-secondary #888888;
+/* Grey for inactive items */
+
+@define-color accent #ffffff;
+/* Highlight becomes white */
+@define-color urgent #ffffff;
+/* Urgent stays white (or make it bold via font settings) */
+
+@define-color tooltip-bg #111111;
+@define-color tooltip-border #333333;

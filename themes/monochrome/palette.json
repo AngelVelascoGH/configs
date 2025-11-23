@@ -1,0 +1,16 @@
+{
+    "monochrome": {
+        "black": "#000000",
+        "darkest": "#050505",
+        "darker": "#101010",
+        "dark": "#1a1a1a",
+        "gray1": "#333333",
+        "gray2": "#4d4d4d",
+        "gray3": "#666666",
+        "gray4": "#808080",
+        "gray5": "#999999",
+        "light": "#b3b3b3",
+        "lighter": "#cccccc",
+        "white": "#ffffff"
+    }
+}

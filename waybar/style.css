@@ -1,88 +1,92 @@
+@import "current-theme.css";
+
 * {
-  font-family: "JetBrainsMono Nerd Font Mono";
-  font-size: 13px;
-  font-weight: 500;
-  border: none;
-  border-radius: 0;
-  min-height: 0;
+    font-family: "JetBrainsMono Nerd Font Mono";
+    font-size: 13px;
+    font-weight: 500;
+    border: none;
+    border-radius: 0;
+    min-height: 0;
 }
 
 /* Main bar */
 window#waybar {
-  background: rgba(29, 32, 33, 0.90); /* bg0_h */
-  color: #ebdbb2; /* fg1 */
-  border-radius: 12px;
+    background: @bar-bg;
+    color: @text-primary;
+    border-radius: 12px;
 }
 
 /* Workspaces */
 #workspaces {
-  background: transparent;
-  margin: 0 4px;
-  padding: 0 8px;
+    background: transparent;
+    margin: 0 4px;
+    padding: 0 8px;
 }
 
 #workspaces button {
-  padding: 0 12px;
-  color: #d5c4a1; /* fg2 */
-  background: transparent;
-  border-radius: 6px;
-  transition: all 0.2s ease;
+    padding: 0 12px;
+    color: @text-secondary;
+    background: transparent;
+    border-radius: 6px;
+    transition: all 0.2s ease;
 }
 
 #workspaces button:hover {
-  background: #ebdbb2; 
-  color: rgba(29, 32, 33, 0.90); 
+    background: @text-primary;
+    color: @bar-bg;
+    /* Inverts color on hover */
 }
 
 #workspaces button.active {
-  background: #ebdbb2; 
-  color: rgba(29, 32, 33, 0.90); 
+    background: @text-primary;
+    color: @bar-bg;
+    /* Inverts color on active */
 }
 
 /* Clock */
 #clock {
-  color: #ebdbb2; /* fg1 */
-  padding: 0 16px;
-  font-weight: 500;
-  letter-spacing: 0.3px;
+    color: @text-primary;
+    padding: 0 16px;
+    font-weight: 500;
+    letter-spacing: 0.3px;
 }
 
 /* Right side modules */
 #tray,
 #network,
 #pulseaudio {
-  padding: 0 12px;
-  color: #d5c4a1; /* fg2 */
-  transition: color 0.2s ease;
+    padding: 0 12px;
+    color: @text-secondary;
+    transition: color 0.2s ease;
 }
 
 #network:hover,
 #pulseaudio:hover {
-  color: #8ec07c; /* aqua */
+    color: @accent;
 }
 
 #tray {
-  padding: 0 8px;
+    padding: 0 8px;
 }
 
-#tray > .passive {
-  -gtk-icon-effect: dim;
+#tray>.passive {
+    -gtk-icon-effect: dim;
 }
 
-#tray > .needs-attention {
-  -gtk-icon-effect: highlight;
-  color: #fb4934; /* red */
+#tray>.needs-attention {
+    -gtk-icon-effect: highlight;
+    color: @urgent;
 }
 
 /* Tooltips */
 tooltip {
-  background: rgba(29, 32, 33, 0.95); /* bg0_h */
-  border: 1px solid rgba(142, 192, 124, 0.20); /* aqua */
-  border-radius: 8px;
-  padding: 8px 12px;
+    background: @tooltip-bg;
+    border: 1px solid @tooltip-border;
+    border-radius: 8px;
+    padding: 8px 12px;
 }
 
 tooltip label {
-  color: #ebdbb2; /* fg1 */
-  font-size: 12px;
+    color: @text-primary;
+    font-size: 12px;
 }

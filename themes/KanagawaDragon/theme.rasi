@@ -1,0 +1,22 @@
+* {
+    /* Kanagawa Dragon Palette */
+    bg0:     #181616;
+    bg1:     #12120f;
+    bg2:     #282727;
+    bg3:     #393836;
+
+    fg0:     #c5c9c5;
+    fg1:     #DCD7BA;
+    fg2:     #727169;
+
+    red:     #c4746e;
+    green:   #8a9a7b;
+    yellow:  #c4b28a;
+    blue:    #8ba4b0;
+    magenta: #a292a3;
+    cyan:    #8ea4a2;
+
+    /* Dragon Green for selection looks great */
+    accent:  @green; 
+    urgent:  @red;
+}
