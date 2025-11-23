@@ -1,17 +1,26 @@
 {
     "kanagawa-dragon": {
-        "background": "#181616",
-        "foreground": "#c5c9c5",
-        "black": "#0d1117",
-        "red": "#c4746e",
-        "green": "#8a9a7b",
-        "yellow": "#c4b28a",
-        "blue": "#8ba4b0",
-        "magenta": "#a292a3",
-        "cyan": "#8ea4a2",
-        "white": "#c5c9c5",
-        "gray": "#727169",
-        "dark_gray": "#2D4F67"
+        "bg_deep": "#0d1117",
+        "bg_main": "#181616",
+        "bg_lighter": "#282727",
+        
+        "dragon_red": "#c4746e",     
+        "dragon_red_dim": "#a35b55", 
+        
+        "dragon_orange": "#b6927b",
+        "carp_yellow": "#c4b28a",
+        
+        "spring_green": "#8a9a7b",
+        "spring_green_dim": "#697a5b",
+        
+        "fuji_white": "#c5c9c5",
+        "old_white": "#DCD7BA",
+        
+        "fuji_gray": "#727169",
+        "fuji_gray_dark": "#504945",
+        
+        "oni_violet": "#957fb8",
+        
+        "wave_blue": "#5D6069"  
     }
 }
-
