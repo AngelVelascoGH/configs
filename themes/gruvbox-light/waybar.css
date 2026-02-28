@@ -1,0 +1,16 @@
+/* --- GRUVBOX LIGHT --- */
+
+@define-color bar-bg rgba(251, 241, 199, 1);
+/* #fbf1c7 (Cream) */
+@define-color text-primary #3c3836;
+/* Dark Brown */
+@define-color text-secondary #7c6f64;
+/* Medium Brown */
+
+@define-color accent #076678;
+/* Dark Blue/Green looks classy on light */
+@define-color urgent #9d0006;
+/* Dark Red */
+
+@define-color tooltip-bg #ebdbb2;
+@define-color tooltip-border #d5c4a1;

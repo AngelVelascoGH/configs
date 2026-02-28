@@ -1,6 +1,6 @@
 /* --- CATPPUCCIN MOCHA --- */
 
-@define-color bar-bg rgba(30, 30, 46, 0.90);
+@define-color bar-bg rgba(30, 30, 46, 1);
 /* Base #1e1e2e */
 @define-color text-primary #cdd6f4;
 /* Text */

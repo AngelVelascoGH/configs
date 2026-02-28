@@ -1,0 +1,51 @@
+[mgr]
+cwd = { fg = "#076678" }
+
+# Hovered (Cream background, Dark Text)
+hovered         = { fg = "#fbf1c7", bg = "#3c3836", bold = true }
+preview_hovered = { underline = true }
+
+# Markers
+marker_selected = { fg = "#79740e", bg = "#79740e" } 
+marker_copied   = { fg = "#b57614", bg = "#b57614" }
+marker_cut      = { fg = "#9d0006", bg = "#9d0006" }
+
+# Tab Bar
+tab_active   = { fg = "#fbf1c7", bg = "#3c3836", bold = true }
+tab_inactive = { fg = "#3c3836", bg = "#ebdbb2" }
+tab_width    = 1
+
+border_symbol = "│"
+border_style  = { fg = "#a89984" }
+
+[status]
+separator_open  = ""
+separator_close = ""
+separator_style = { fg = "#a89984", bg = "#a89984" }
+
+mode_normal = { fg = "#fbf1c7", bg = "#3c3836", bold = true }
+mode_select = { fg = "#fbf1c7", bg = "#79740e", bold = true }
+mode_unset  = { fg = "#fbf1c7", bg = "#9d0006", bold = true }
+
+progress_label  = { fg = "#fbf1c7", bold = true }
+progress_normal = { fg = "#3c3836", bg = "#ebdbb2" }
+progress_error  = { fg = "#9d0006", bg = "#ebdbb2" }
+
+[input]
+border   = { fg = "#076678" }
+title    = {}
+value    = { fg = "#3c3836" }
+selected = { reversed = true }
+
+[select]
+border   = { fg = "#076678" }
+active   = { fg = "#fbf1c7", bg = "#076678" }
+inactive = {}
+
+[which]
+mask            = { bg = "#ebdbb2" }
+cand            = { fg = "#427b58" }
+rest            = { fg = "#7c6f64" }
+desc            = { fg = "#3c3836" }
+separator       = "  "
+separator_style = { fg = "#bdae93" }

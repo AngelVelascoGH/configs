@@ -1,6 +1,6 @@
 /* --- GRUVBOX THEME --- */
 
-@define-color bar-bg rgba(29, 32, 33, 0.90);
+@define-color bar-bg rgba(29, 32, 33, 1);
 @define-color text-primary #ebdbb2;
 @define-color text-secondary #d5c4a1;
 

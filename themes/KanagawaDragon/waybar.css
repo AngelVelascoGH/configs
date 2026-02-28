@@ -1,6 +1,6 @@
 /* --- KANAGAWA DRAGON --- */
 
-@define-color bar-bg rgba(24, 22, 22, 0.95);
+@define-color bar-bg rgba(24, 22, 22, 1);
 /* #181616 */
 @define-color text-primary #c5c9c5;
 @define-color text-secondary #727169;
